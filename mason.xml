@@ -1,0 +1,12 @@
+<TemplatesExport>
+  <Template uid="3595253a-2690-459b-9797-56263760a079" shortcut="evt" description="generates an event" text="public event EventHandler $EVENTNAME$;&#xD;&#xA;&#xD;&#xA;protected void Send$EVENTNAME$Event()&#xD;&#xA;{&#xD;&#xA;  if ($EVENTNAME$ != null)&#xD;&#xA;  {&#xD;&#xA;	EventArgs e = new EventArgs();&#xD;&#xA;	$EVENTNAME$(this, e);&#xD;&#xA;  }&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="EVENTNAME" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+</TemplatesExport>
